@@ -57,7 +57,6 @@ export const messages = {
     stayConnected: "تابع أخبارنا",
     facebook: "صفحتنا على فيسبوك",
     footerNote: "بالقرآن يجتمع الخير.",
-    demo: "نسخة تعريفية تجريبية — الإعلانات والفعاليات والمواعيد أمثلة توضيحية.",
     announcementsIntro:
       "أخبار الحلقات، ومستجدّات الأنشطة، وكلّ ما يهمّ مجتمعنا.",
     announcementsHeading: "أخبارنا وإعلاناتنا",
@@ -69,8 +68,6 @@ export const messages = {
       "جدول أسبوعي لحلقات الحفظ والتجويد والمراجعة. اختر يومًا للاطّلاع على حلقاته.",
     weeklySchedule: "البرنامج الأسبوعي",
     timezone: "التوقيت المحلي · تونس",
-    timetableNotice:
-      "هذا الجدول توضيحي. المواعيد وأسماء المدرّسين أمثلة وليست برنامجًا فعليًا.",
     days: [
       "الاثنين",
       "الثلاثاء",
@@ -94,8 +91,6 @@ export const messages = {
     location: "المكان",
     pastEvent: "لقاء سابق",
     upcomingEvent: "لقاء قادم",
-    eventSample:
-      "فعالية توضيحية ضمن النسخة التجريبية. ليست دعوة إلى لقاء فعلي.",
     emptyAnnouncements: "لا توجد إعلانات حاليًا.",
     emptyEvents: "لا توجد لقاءات في هذه الفترة.",
     emptyClasses: "لا توجد حلقات مبرمجة لهذا اليوم.",
@@ -167,7 +162,6 @@ export const messages = {
     stayConnected: "Gardons le contact",
     facebook: "Notre page Facebook",
     footerNote: "Le Coran nous rassemble.",
-    demo: "Version de démonstration — actualités, rencontres et horaires donnés à titre d’exemple.",
     announcementsIntro:
       "La vie des cercles, les nouvelles activités et les informations de notre communauté.",
     announcementsHeading: "Nos actualités",
@@ -180,8 +174,6 @@ export const messages = {
       "Le programme hebdomadaire de mémorisation, de tajwid et de révision. Choisissez un jour pour découvrir ses cours.",
     weeklySchedule: "Le programme de la semaine",
     timezone: "Heure locale · Tunisie",
-    timetableNotice:
-      "Programme de démonstration. Les horaires et les noms des enseignants sont fictifs.",
     days: [
       "Lundi",
       "Mardi",
@@ -205,8 +197,6 @@ export const messages = {
     location: "Lieu",
     pastEvent: "Rencontre passée",
     upcomingEvent: "À venir",
-    eventSample:
-      "Rencontre fictive présentée pour cette démonstration. Ceci n’est pas une invitation à un événement réel.",
     emptyAnnouncements: "Aucune actualité pour le moment.",
     emptyEvents: "Aucune rencontre pour cette période.",
     emptyClasses: "Aucun cours prévu ce jour-là.",

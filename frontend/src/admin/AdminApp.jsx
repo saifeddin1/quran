@@ -104,7 +104,6 @@ const labels = {
     newRecord: "سجل جديد",
     chooseImage: "اختر صورة",
     imageInUse: "الصورة مستخدمة في محتوى منشور أو مسودة.",
-    illustrative: "المحتوى الحالي تجريبي. استبدله بمعلومات معتمدة قبل الإطلاق.",
     timezone: "الأوقات حسب توقيت تونس (+01:00).",
     days: [
       "الاثنين",
@@ -202,8 +201,6 @@ const labels = {
     newRecord: "Nouvel élément",
     chooseImage: "Choisir une image",
     imageInUse: "Cette image est utilisée par un contenu.",
-    illustrative:
-      "Le contenu actuel est illustratif. Remplacez-le par des informations validées avant la mise en ligne.",
     timezone: "Horaires en heure de Tunisie (+01:00).",
     days: [
       "Lundi",

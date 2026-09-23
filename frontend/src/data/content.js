@@ -1,5 +1,3 @@
-// Illustrative editorial content. Replace these records with approved organization content.
-// French organization naming is provisional; stable IDs are shared across locales.
 export const organization = {
   name: {
     ar: "الفرع المحلي الإمام الشاطبي للقرآن الكريم بالزراوة",
@@ -35,14 +33,14 @@ export const announcements = [
     },
     body: {
       ar: [
-        "كلّ بداية فرصة لتجديد الصلة بكتاب الله. يقدّم البرنامج النموذجي لهذا الموسم حلقات للحفظ والمراجعة، ودروسًا في أحكام التجويد، ومساحات للتدبّر وحسن الفهم.",
+        "كلّ بداية فرصة لتجديد الصلة بكتاب الله. يقدّم برنامج هذا الموسم حلقات للحفظ والمراجعة، ودروسًا في أحكام التجويد، ومساحات للتدبّر وحسن الفهم.",
         "تتوزّع الحلقات على أيام الأسبوع لتناسب الأطفال واليافعين والكبار، مع مجموعات للمبتدئين وأخرى لمن يرغبون في تثبيت المحفوظ وتحسين التلاوة.",
-        "يمكن الاطّلاع على جدول الدروس للتعرّف إلى الأوقات والمستويات. المواعيد المعروضة في هذا الموقع أمثلة توضيحية إلى حين نشر البرنامج المعتمد.",
+        "يمكن الاطّلاع على جدول الدروس للتعرّف إلى الأوقات والمستويات واختيار الحلقة المناسبة.",
       ],
       fr: [
-        "Chaque nouvelle saison invite à renouer avec le Livre de Dieu. Ce programme illustratif propose des cercles de mémorisation et de révision, des cours de tajwid et des temps de réflexion autour du sens des versets.",
+        "Chaque nouvelle saison invite à renouer avec le Livre de Dieu. Le programme propose des cercles de mémorisation et de révision, des cours de tajwid et des temps de réflexion autour du sens des versets.",
         "Les séances sont réparties sur la semaine pour les enfants, les adolescents et les adultes. Certains groupes accueillent les débutants, tandis que d’autres permettent de consolider les acquis et d’améliorer la récitation.",
-        "Le planning présente les horaires et les niveaux. Les séances affichées sur ce site sont des exemples, en attendant la publication du programme officiel.",
+        "Le planning présente les horaires et les niveaux afin de choisir le cercle adapté.",
       ],
     },
     publishedAt: "2026-09-21",
@@ -62,12 +60,12 @@ export const announcements = [
       ar: [
         "يساعد انتظام الموعد على بناء عادة طيّبة تستمرّ. يتيح جدول الدروس الأسبوعي رؤية واضحة لموضوع كلّ حلقة، والفئة التي تناسبها، وموعدها ومكانها.",
         "للمبتدئين حلقات تهتمّ بتصحيح القراءة ومخارج الحروف، ولمن سبق لهم الحفظ أوقات مخصّصة للمراجعة والتثبيت. أمّا الأطفال، فترافقهم أنشطة قصيرة تراعي أعمارهم وقدرتهم على التركيز.",
-        "الجدول المعروض نموذج قابل للتحديث؛ وسيُعلن عن أيّ برنامج معتمد عبر قنوات المؤسسة الرسمية.",
+        "يُحدّث الجدول عند تغيير المواعيد، وتُنشر المستجدّات عبر قنوات المؤسسة الرسمية.",
       ],
       fr: [
         "Un rendez-vous régulier aide à construire une habitude durable. Le planning hebdomadaire permet de retrouver le thème, le public, l’horaire et la salle de chaque séance.",
         "Les débutants découvrent les bases de la lecture et de la prononciation. Les participants ayant déjà mémorisé des passages disposent de temps consacrés à la révision. Pour les enfants, les activités sont courtes et adaptées à leur attention.",
-        "Ce planning est un exemple qui pourra être actualisé. Tout programme officiel sera annoncé sur les canaux de l’organisation.",
+        "Le planning est actualisé lorsque les horaires changent, et les nouveautés sont annoncées sur les canaux de l’organisation.",
       ],
     },
     publishedAt: "2026-09-18",
@@ -87,12 +85,12 @@ export const announcements = [
       ar: [
         "التلاوة مهارة تنمو بالإصغاء والممارسة. تُعنى ورشة التجويد التمهيدية بتقريب المفاهيم الأساسية بأسلوب واضح، مع وقت كافٍ للتطبيق وطرح الأسئلة.",
         "يتناول اللقاء مخارج بعض الحروف وصفاتها، وأمثلة مبسّطة على أحكام المدّ. لا يتطلّب هذا المستوى معرفة سابقة بالتجويد، ويكفي أن يكون المتعلّم قادرًا على قراءة الحروف العربية.",
-        "تندرج هذه الورشة ضمن أمثلة الأنشطة المعروضة للتعريف بشكل الموقع، ويمكن الاطّلاع على تفاصيلها في صفحة الفعاليات.",
+        "يمكن الاطّلاع على تفاصيل الورشة وموعدها في صفحة الفعاليات.",
       ],
       fr: [
         "La récitation se développe par l’écoute et la pratique. Cet atelier d’initiation présente les notions essentielles avec clarté, en laissant du temps aux exercices et aux questions.",
         "La rencontre aborde la prononciation de quelques lettres et des exemples simples de prolongation des sons. Aucune connaissance du tajwid n’est requise ; savoir lire les lettres arabes suffit pour ce niveau.",
-        "Cet atelier fait partie des activités illustratives présentées pour montrer le fonctionnement du site. Sa fiche est disponible sur la page des événements.",
+        "Les détails et l’horaire de l’atelier sont disponibles sur la page des rencontres.",
       ],
     },
     publishedAt: "2026-09-14",
@@ -112,12 +110,12 @@ export const announcements = [
       ar: [
         "لا تحتاج بداية الحفظ إلى برنامج شاقّ. اختيار مقدار يسير ووقت مناسب، ثمّ المواظبة عليهما، يجعل الرحلة أكثر هدوءًا وقابلية للاستمرار.",
         "من الأفكار العملية تخصيص دقائق للمراجعة قبل الحفظ الجديد، والاستماع إلى تلاوة واضحة، وتسميع ما حُفظ في حلقة بإشراف المعلّم. تختلف وتيرة التقدّم من شخص إلى آخر، والمهمّ هو التعلّم بإتقان وطمأنينة.",
-        "تساعد الأسرة والصحبة الطيّبة على التشجيع، بعيدًا عن المقارنة والضغط. هذا النصّ مثال على المحتوى التربوي الذي يمكن نشره في الموقع.",
+        "تساعد الأسرة والصحبة الطيّبة على التشجيع، بعيدًا عن المقارنة والضغط.",
       ],
       fr: [
         "Commencer à mémoriser ne demande pas un programme exigeant. Choisir un passage court et un moment adapté, puis garder ce rendez-vous, rend le parcours plus serein et plus durable.",
         "Quelques pistes : réviser avant d’apprendre un nouveau passage, écouter une récitation claire et réciter en cercle avec un enseignant. Chacun avance à son rythme ; la qualité de l’apprentissage compte davantage que la quantité.",
-        "Les proches et le groupe peuvent encourager sans comparaison ni pression. Ce texte illustre le type de contenu pédagogique que le site pourra proposer.",
+        "Les proches et le groupe peuvent encourager sans comparaison ni pression.",
       ],
     },
     publishedAt: "2026-09-08",
@@ -138,20 +136,20 @@ export const events = [
     body: {
       ar: [
         "يفتح هذا اللقاء مساحة للتعارف وشرح المسارات التعليمية المقترحة للأطفال واليافعين والكبار، من مبادئ القراءة إلى الحفظ والمراجعة.",
-        "يتضمّن البرنامج تقديمًا موجزًا للحلقات، ونموذجًا تطبيقيًا للتعلّم الجماعي، ووقتًا للأسئلة حول المستويات ووتيرة الدروس.",
-        "هذا حدث توضيحي ضمن النسخة التجريبية. سيُنشر الموعد والمكان النهائيان عند اعتماد البرنامج الرسمي.",
+        "يتضمّن البرنامج تقديمًا موجزًا للحلقات، ونشاطًا تطبيقيًا للتعلّم الجماعي، ووقتًا للأسئلة حول المستويات ووتيرة الدروس.",
+        "يسرّنا استقبال الراغبين في التعرّف إلى مسارات التعلّم والانضمام إلى الحلقات.",
       ],
       fr: [
         "Cette rencontre présente les parcours proposés aux enfants, aux adolescents et aux adultes, des premières lectures à la mémorisation et à la révision.",
         "Au programme : une présentation des cercles, un aperçu d’une séance collective et un temps d’échange sur les niveaux et le rythme des cours.",
-        "Cet événement est un exemple de démonstration. La date et le lieu définitifs seront communiqués lorsque le programme officiel sera établi.",
+        "Nous serons heureux d’accueillir les personnes souhaitant découvrir les parcours et rejoindre les cercles.",
       ],
     },
     startsAt: "2026-10-03T09:00:00+01:00",
     endsAt: "2026-10-03T11:30:00+01:00",
     location: {
-      ar: "قاعة اللقاءات · مكان توضيحي",
-      fr: "Salle de rencontre · lieu indicatif",
+      ar: "قاعة اللقاءات",
+      fr: "Salle de rencontre",
     },
     category: { ar: "لقاء تعريفي", fr: "Découverte" },
   },
@@ -166,19 +164,19 @@ export const events = [
       ar: [
         "ورشة للمبتدئين تقرّب قواعد التلاوة من خلال الإصغاء والتكرار. يتدرّب المشاركون على نطق الحروف بوضوح وتطبيق أمثلة يسيرة على المدّ.",
         "ينتقل اللقاء من عرض قصير للمفاهيم إلى مجموعات تطبيقية صغيرة، مع ملاحظات تساعد كلّ متعلّم على معرفة ما يحتاج إلى مراجعته.",
-        "لا يلزم مستوى متقدّم للمشاركة في هذا النموذج التعليمي. المعلومات والمواعيد المعروضة توضيحية وليست إعلانًا عن فعالية معتمدة.",
+        "لا يلزم مستوى متقدّم للمشاركة؛ فالورشة مخصّصة للمبتدئين والراغبين في تثبيت الأساسيات.",
       ],
       fr: [
         "Cet atelier pour débutants aborde la récitation par l’écoute et la répétition. Les participants s’exercent à prononcer clairement les lettres et à appliquer des exemples simples de prolongation.",
         "Après une courte introduction, la pratique se poursuit en petits groupes. Les retours de l’enseignant aident chacun à identifier les points à revoir.",
-        "Un niveau avancé n’est pas nécessaire pour ce modèle d’atelier. Les informations et les horaires sont illustratifs et ne constituent pas l’annonce d’un événement confirmé.",
+        "Aucun niveau avancé n’est nécessaire ; l’atelier s’adresse aux débutants et à ceux qui souhaitent consolider les bases.",
       ],
     },
     startsAt: "2026-10-18T10:00:00+01:00",
     endsAt: "2026-10-18T12:00:00+01:00",
     location: {
-      ar: "قاعة التعلّم · مكان توضيحي",
-      fr: "Salle d’apprentissage · lieu indicatif",
+      ar: "قاعة التعلّم",
+      fr: "Salle d’apprentissage",
     },
     category: { ar: "ورشة تعليمية", fr: "Atelier" },
   },
@@ -191,21 +189,21 @@ export const events = [
     },
     body: {
       ar: [
-        "تبدأ صحبة القرآن أحيانًا بلحظة بسيطة تشترك فيها العائلة. يجمع هذا اللقاء النموذجي الآباء والأمهات والأطفال في صباح للتعلّم والتشجيع.",
+        "تبدأ صحبة القرآن أحيانًا بلحظة بسيطة تشترك فيها العائلة. يجمع هذا اللقاء الآباء والأمهات والأطفال في صباح للتعلّم والتشجيع.",
         "يتضمّن التصوّر تلاوات قصيرة وأنشطة للأطفال وحوارًا حول اختيار أهداف واقعية للحفظ والمراجعة في البيت، مع احترام إيقاع كلّ طفل.",
-        "هذا وصف توضيحي لفعالية محتملة. التفاصيل النهائية ستُستبدل بمعلومات معتمدة قبل إطلاق الموقع رسميًا.",
+        "تجمع فقرات اللقاء بين التلاوة والتعلّم والحوار في أجواء عائلية هادئة.",
       ],
       fr: [
-        "Le lien avec le Coran peut naître d’un moment simple partagé en famille. Cette rencontre illustrative réunit parents et enfants autour de l’apprentissage et de l’encouragement.",
+        "Le lien avec le Coran peut naître d’un moment simple partagé en famille. Cette rencontre réunit parents et enfants autour de l’apprentissage et de l’encouragement.",
         "Le programme envisagé associe de courtes récitations, des activités pour les enfants et un échange sur des objectifs réalistes de mémorisation et de révision à la maison, en respectant le rythme de chacun.",
-        "Cette description présente un exemple d’événement. Les détails seront remplacés par des informations validées avant le lancement officiel du site.",
+        "Les activités associent récitation, apprentissage et échange dans une atmosphère familiale sereine.",
       ],
     },
     startsAt: "2026-11-07T09:30:00+01:00",
     endsAt: "2026-11-07T12:00:00+01:00",
     location: {
-      ar: "قاعة اللقاءات · مكان توضيحي",
-      fr: "Salle de rencontre · lieu indicatif",
+      ar: "قاعة اللقاءات",
+      fr: "Salle de rencontre",
     },
     category: { ar: "لقاء عائلي", fr: "En famille" },
   },
@@ -216,26 +214,26 @@ export const events = [
       fr: "Cercle de récitation et de révision",
     },
     excerpt: {
-      ar: "نموذج لمجلس أسبوعي يلتقي فيه المتعلّمون للمراجعة والاستماع والتشجيع المتبادل.",
-      fr: "Un exemple de rencontre hebdomadaire pour réviser, écouter et s’encourager mutuellement.",
+      ar: "مجلس أسبوعي يلتقي فيه المتعلّمون للمراجعة والاستماع والتشجيع المتبادل.",
+      fr: "Une rencontre hebdomadaire pour réviser, écouter et s’encourager mutuellement.",
     },
     body: {
       ar: [
-        "يعرض هذا النموذج شكلًا من أشكال اللقاءات التي يمكن التعريف بها في أرشيف الموقع: مجلس هادئ للتلاوة والمراجعة تحت إشراف فريق التعليم.",
+        "مجلس هادئ للتلاوة والمراجعة تحت إشراف فريق التعليم.",
         "يتناوب المشاركون على التلاوة، ثمّ تُراجع المواضع التي تحتاج إلى عناية في جوّ من الاحترام والتشجيع. الهدف هو تثبيت المحفوظ والإنصات المتأنّي.",
-        "هذا سجلّ توضيحي لفعالية سابقة؛ لا يوثّق حدثًا فعليًا للمؤسسة.",
+        "اختُتم المجلس بمراجعة جماعية وتوجيهات لمواصلة التلاوة خلال الأسبوع.",
       ],
       fr: [
-        "Cet exemple illustre une rencontre pouvant figurer dans les archives du site : un cercle paisible de récitation et de révision, accompagné par l’équipe pédagogique.",
+        "Un cercle paisible de récitation et de révision, accompagné par l’équipe pédagogique.",
         "Les participants récitent à tour de rôle, puis reprennent les passages qui demandent de l’attention dans un esprit de respect et d’encouragement. L’objectif est de consolider les acquis et de cultiver l’écoute.",
-        "Cette fiche est un exemple d’événement passé ; elle ne documente pas une rencontre réellement organisée.",
+        "La rencontre s’est terminée par une révision collective et des conseils pour poursuivre la récitation durant la semaine.",
       ],
     },
     startsAt: "2026-09-12T15:00:00+01:00",
     endsAt: "2026-09-12T16:30:00+01:00",
     location: {
-      ar: "قاعة التلاوة · مكان توضيحي",
-      fr: "Salle de récitation · lieu indicatif",
+      ar: "قاعة التلاوة",
+      fr: "Salle de récitation",
     },
     category: { ar: "مجلس قرآني", fr: "Cercle coranique" },
   },

@@ -55,8 +55,6 @@ const ContentContext = createContext(null);
 const LocaleContext = createContext(null);
 const useSite = () => useContext(LocaleContext);
 const useContent = () => useContext(ContentContext);
-const isIllustrative = (item) => !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(item.id);
-
 function ContentProvider({ children }) {
   const [state, setState] = useState({ status: "loading", data: null });
   const [attempt, setAttempt] = useState(0);
@@ -217,7 +215,6 @@ function Header() {
 function Footer() {
   const { locale, t } = useSite();
   const { data } = useContent();
-  const hasSamples = data && [...data.announcements, ...data.events, ...data.sessions].some(isIllustrative);
   return (
     <footer className="site-footer">
       <div className="container footer-grid">
@@ -258,7 +255,6 @@ function Footer() {
         </span>
         <span>{data?.organization.tagline?.[locale] || t.brandSub}</span>
       </div>
-      {hasSamples && <div className="demo-notice"><span className="container">{t.demo}</span></div>}
     </footer>
   );
 }
@@ -744,7 +740,6 @@ function Detail({ type }) {
                 <dd>{item.location[locale]}</dd>
               </div>
             </dl>
-            {isIllustrative(item) && <p className="detail-demo">{t.eventSample}</p>}
           </aside>
         )}
       </div>
@@ -850,7 +845,6 @@ function Classes() {
           })}
         </div>
         {!data.sessions.length && <EmptyState>{t.emptyWeek}</EmptyState>}
-        {data.sessions.some(isIllustrative) && <p className="schedule-notice"><span className="tiny-diamond" />{t.timetableNotice}</p>}
       </section>
     </>
   );

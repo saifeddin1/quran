@@ -843,16 +843,6 @@ main:focus {
   font-size: 0.72rem;
   color: #646f5d;
 }
-.demo-notice {
-  padding: 10px 0;
-  background: #eeeee3;
-  color: #5f654e;
-  text-align: center;
-  font-size: 0.7rem;
-}
-.demo-notice .container {
-  display: block;
-}
 .page-intro {
   background: #edf2e9;
   padding: 25px 0 50px;
@@ -999,12 +989,6 @@ main:focus {
 .event-sidebar dd {
   margin: 7px 0 0;
   font-size: 0.96rem;
-}
-.detail-demo {
-  font-size: 0.77rem;
-  color: var(--muted);
-  padding-top: 20px;
-  border-top: 1px solid #d9e3d0;
 }
 .schedule-heading {
   display: flex;
@@ -1191,14 +1175,6 @@ main:focus {
   grid-column: 1/-1;
   text-align: start;
   font-size: 1rem;
-}
-.schedule-notice {
-  font-size: 0.79rem;
-  color: #636e58;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 27px;
 }
 .state-panel {
   min-height: 55vh;
@@ -1824,10 +1800,6 @@ main:focus {
   .footer-bottom {
     font-size: 0.67rem;
   }
-  .demo-notice {
-    font-size: 0.68rem;
-    padding-block: 11px;
-  }
   .page-intro {
     padding-bottom: 32px;
   }
@@ -1876,9 +1848,6 @@ main:focus {
   }
   .event-sidebar dl > div:last-child {
     grid-column: 1/-1;
-  }
-  .detail-demo {
-    padding-top: 15px;
   }
   .schedule-heading {
     flex-direction: column;
@@ -1946,13 +1915,6 @@ main:focus {
   .single-day .day-sessions {
     grid-template-columns: 1fr;
     padding: 14px;
-  }
-  .schedule-notice {
-    align-items: flex-start;
-    font-size: 0.8rem;
-  }
-  .schedule-notice .tiny-diamond {
-    margin-top: 11px;
   }
   .state-panel h1 {
     font-size: 1.9rem;
