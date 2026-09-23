@@ -6,7 +6,9 @@ import {
 } from "../data/content.js";
 
 const copy = (value) => structuredClone(value);
-const apiMode = import.meta.env?.VITE_CONTENT_SOURCE === "api";
+const apiMode =
+  import.meta.env?.PROD === true ||
+  import.meta.env?.VITE_CONTENT_SOURCE === "api";
 
 async function getApi(path) {
   const response = await fetch(`/api/public/${path}`);
